@@ -1,3 +1,8 @@
 body {
   position: relative;
 }
+table {
+  width: 50%;
+  margin: auto;
+  table-layout: fixed;
+}
