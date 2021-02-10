@@ -1,8 +1,11 @@
 body {
   position: relative;
 }
-table, tr {
+table {
   width: 100%;
   margin: auto;
   table-layout: fixed;
+}
+th {
+  align: center; 
 }
