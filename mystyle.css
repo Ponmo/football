@@ -9,3 +9,6 @@ table {
 th {
   align: center; 
 }
+.card {
+  width: 20%; 
+}
