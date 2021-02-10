@@ -1,7 +1,7 @@
 body {
   position: relative;
 }
-table, tr, th {
+table, tr {
   width: 100%;
   margin: auto;
   table-layout: fixed;
