@@ -2,11 +2,7 @@ body {
   position: relative;
 }
 .mainbody {
-  background-image: url("gAtPv0.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  background-size: cover;
+  background-color: blue;
 }
 table {
   width: 100%;
