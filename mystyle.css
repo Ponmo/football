@@ -10,12 +10,14 @@ table {
   table-layout: fixed;
 }
 .maintable {
-  width: 50%;
+  width: 100%;
   table-layout: fixed;
   margin: auto; 
 }
 .card {
   width: 95%; 
+  margin: auto;
+  float: none;
 }
 
 h1 {
