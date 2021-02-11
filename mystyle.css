@@ -23,5 +23,7 @@ h1 {
  text-decoration: underline; 
 }
 #credit {
-  position: absolute, bottom, center; 
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
 }
