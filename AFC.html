@@ -1,70 +1,232 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <title>Bootstrap Example</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  <style>
-  body {
-    position: relative;
-  }
-  ul.nav-pills {
-    top: 20px;
-    position: fixed;
-  }
-  div.col-sm-9 div {
-    height: 250px;
-    font-size: 28px;
-  }
-  #section1 {color: #fff; background-color: #ff9933;}
-  #section2 {color: #fff; background-color: #339933;}
-  #section3 {color: #fff; background-color: #0099cc;}
-  #section4 {color: #fff; background-color: #b30000;}
-  
-  @media screen and (max-width: 810px) {
-    #section1, #section2, #section3, #section4  {
-      margin-left: 150px;
-    }
-  }
-  </style>
-</head>
-<body data-spy="scroll" data-target="#myScrollspy" data-offset="20">
-
-<div class="container">
-  <div class="row">
-    <nav class="col-sm-3" id="myScrollspy">
-      <ul class="nav nav-pills nav-stacked">
-        <li class="active"><a href="#section1">AFC North</a></li>
-        <li><a href="#section2">AFC East</a></li>
-        <li><a href="#section3">AFC South</a></li>
-            <li><a href="#section41">AFC West</a></li>                    
-          </ul>
+  <head>
+    <!-- Bootstrap Stuff add interactive backg-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Our Stuff  -->
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="myscript.js"></script>
+    <title>The NFC</title>
+  </head>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">  
+      <a class="navbar-brand" href="https://www.nfl.com/">
+        <img src="AFC-logo.jpg" alt="logo" style="width:40px;">
+      </a>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="https://ponmo.github.io/football/">Main Page</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section1">NFC North</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section2">NFC East</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section3">NFC South</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#section4">NFC West</a>
         </li>
       </ul>
     </nav>
-    <div class="col-sm-9">
-      <div id="section1">    
-        <h1>AFC North</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-      </div>
-      <div id="section2"> 
-        <h1>AFC East</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-      </div>        
-      <div id="section3">         
-        <h1>AFC South</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-      </div>
-      <div id="section4">         
-        <h1>AFC West</h1>
-        <p>Try to scroll this section and look at the navigation list while scrolling!</p>
-      </div>      
+    
+    <!-- Replace AFC-logo.jpg w/ appropriate team logo, change alt to team name, change card title to team name, and change card-text to some personal opinion/facts about team -->
+    <div id="section1" class="container-fluid bg-success" style="padding-top:70px;padding-bottom:70px">
+      <h1>NFC North</h1>
+      <table>
+        <tr>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC ...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+        </tr>
+      </table>
     </div>
-  </div>
-</div>
-
-</body>
+    <div id="section2" class="container-fluid bg-warning" style="padding-top:70px;padding-bottom:70px">
+      <h1>NFC East</h1>
+      <table>
+        <tr>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (AFC)</p>
+                <p class="card-text">The NFC is ()...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is )...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is )...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The Natinoal Football Conference (NFC)</p>
+                <p class="card-text">The NFC is )...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div id="section3" class="container-fluid bg-secondary" style="padding-top:70px;padding-bottom:70px">
+      <h1>NFC South</h1>
+      <table>
+        <tr>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is )...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The Natinoal Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
+    <div id="section4" class="container-fluid bg-danger" style="padding-top:70px;padding-bottom:70px">
+      <h1>NFC West</h1>
+      <table>
+        <tr>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The Naitonal Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+          <th>
+            <div class="card">
+              <img class="card-img-top" src="2106__national_football_conference-primary_dark-2010.png" alt="NFC Logo">
+              <div class="card-body">
+                <p class="card-title">The National Football Conference (NFC)</p>
+                <p class="card-text">The NFC is (continue)...</p>
+                <a href="https://ponmo.github.io/football/AFC" class="btn btn-primary stretched-link">See Stats!</a>
+              </div>
+            </div>
+          </th>
+        </tr>
+      </table>
+    </div>
+  </body> 
 </html>
