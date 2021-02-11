@@ -10,9 +10,7 @@ table {
   table-layout: fixed;
 }
 .maintable {
-  width: 100%;
-  table-layout: fixed;
-  margin: auto; 
+  width: 70%;
 }
 .card {
   width: 95%; 
