@@ -1,6 +1,13 @@
 body {
   position: relative;
 }
+.mainbody {
+  background-image: url("gAtPv0.png");
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 table {
   width: 100%;
   margin: auto;
