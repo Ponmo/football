@@ -22,3 +22,6 @@ th {
 h1 {
  text-decoration: underline; 
 }
+#credit {
+  position: absolute, bottom, center; 
+}
