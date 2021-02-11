@@ -12,6 +12,9 @@ table {
 th {
   align: center; 
 }
+.maincard {
+  align: center;
+}
 .card {
   width: 95%; 
   align: center;
