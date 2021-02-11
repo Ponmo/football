@@ -26,5 +26,5 @@ h1 {
   bottom: 0px;
   text-align: center;
   width: 100%;
-  position: absolute;
+  position: fixed;
 }
