@@ -6,7 +6,7 @@ $(document).ready(function() {
     mouseleave: function(){
       $(this).css("box-shadow", "0 8px 16px 0 rgba(0,0,0,0.2)");
     },
-    click: function(){
+    hover: function(){
       $(this).css("transform", "rotateY(180deg)");
     }
   });
