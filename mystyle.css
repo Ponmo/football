@@ -9,6 +9,9 @@ table {
   margin: auto;
   table-layout: fixed;
 }
+th {
+  height: 100%; 
+}
 .maintable {
   margin-top: 50px;
   width: 70%;
