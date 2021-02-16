@@ -22,6 +22,7 @@ table {
   transition: 0.3s;
 }
 .flip-front, .flip-back {
+  position: absolute;
   width: 95%;
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
