@@ -5,6 +5,9 @@ $(document).ready(function() {
     },
     mouseleave: function(){
       $(this).css("box-shadow", "0 8px 8px 0 rgba(0,0,0,0.3)");
+    },
+    click: function(){
+      $(this).css("");
     }
   });
 });
