@@ -18,13 +18,11 @@ table {
   margin: auto;
   float: none;
   box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  transition: 0.3s;
 }
 .flip-card-inner {
-  position: relative;
-  width: 100%;
+  width: 95%;
   text-align: center;
-  transition: transform 0.8s;
+  transition: transform 0.4s;
   transform-style: preserve-3d;
 }
 .flip-front, .flip-back {
