@@ -14,7 +14,6 @@ table {
   width: 70%;
 }
 .card {
-  perspective: 1000px;
   width: 95%; 
   margin: auto;
   float: none;
