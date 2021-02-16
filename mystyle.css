@@ -39,6 +39,9 @@ table {
   color: white;
   transform: rotateY(180deg);
 }
+.flip-front {
+  background-color: white;
+}
 h1 {
  text-decoration: underline; 
 }
