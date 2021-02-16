@@ -24,6 +24,7 @@ table {
   width: 95%;
   transition: transform 0.4s;
   transform-style: preserve-3d;
+  background-color: transparent;
 }
 .flip-front, .flip-back {
   width: 100%;
