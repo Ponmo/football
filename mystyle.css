@@ -22,7 +22,6 @@ table {
 }
 .flip-card-inner {
   width: 95%;
-  text-align: center;
   transition: transform 0.4s;
   transform-style: preserve-3d;
 }
