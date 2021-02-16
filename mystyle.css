@@ -4,6 +4,13 @@ body {
 .mainbody {
   background-color: white;
 }
+.flip-front, .flip-back {
+  position: absolute;
+  width: 95%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
 table {
   width: 100%;
   margin: auto;
