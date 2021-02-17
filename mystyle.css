@@ -37,6 +37,7 @@ table {
   transform: rotateY(180deg);
   position: absolute;
   text-align: center;
+  background-color: blue;
 }
 h2 {
   text-decoration: underline; 
