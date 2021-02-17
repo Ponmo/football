@@ -38,7 +38,8 @@ table {
   position: absolute;
   text-align: center;
 }
-h2 {
+.h2 {
+  font-size: large;
   text-decoration: underline; 
 }
 h1 {
