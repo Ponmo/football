@@ -36,6 +36,8 @@ table {
 .flip-back {
   transform: rotateY(180deg);
   position: absolute;
+  text-align: center;
+  
 }
 h1 {
  text-decoration: underline; 
