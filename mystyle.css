@@ -39,8 +39,8 @@ table {
   text-align: center;
 }
 .h2 {
-  font-size: large;
-  font-style: oblique;
+  font-size: x-large;
+  font-weight: bold;
   text-decoration: underline; 
 }
 h1 {
