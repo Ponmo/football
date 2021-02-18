@@ -52,15 +52,14 @@
       </tr>
     </table>
     <!--Button to compare stats of two different teams -->
-    <div class="form-group">
-      <label for="sel1">Select team:</label>
-      <select class="form-control" id="sel1">
-        <option>Tampa Bay Buccaneers</option>
-        <option>2</option>
-        <option>3</option>
-        <option>4</option>
+    <form>
+      <select name="TeamOne" class="custom-select">
+        <option selected>Select Team</option>
+        <option id="Buc">Tampa Bay Buccaneers</option>
+        <option value="fiat">Fiat</option>
+        <option value="audi">Audi</option>
       </select>
-    </div>
+    </form>
     <button type="button" class="btn btn-outline-primary">Compare Team Stats!</button>
     <p id="credit">By William Collins and Noah Wang</p>
   </body>
