@@ -4,6 +4,7 @@ body {
 .mainbody {
   background-color: white;
 }
+/*below is used for the cards and interactions*/
 table {
   width: 100%;
   margin: auto;
@@ -46,12 +47,15 @@ table {
 h1 {
  text-decoration: underline; 
 }
+/*the text at the bottom of main page*/
 #credit {
   bottom: 0px;
   text-align: center;
   width: 100%;
   margin: auto;
 }
+
+/*the rest is for the timeline css*/
 main {
   width: 50%;
   margin-top: 30px;
