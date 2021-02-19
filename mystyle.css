@@ -90,8 +90,7 @@ main {
 .p:nth-child(even) {
   border-left: 3px solid;
   padding-right: 0;
-  text-align: right;
-  
+
   &:before {
     right: 100%; 
     margin-right: -20px;
