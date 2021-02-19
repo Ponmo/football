@@ -56,11 +56,11 @@ h1 {
 }
 
 /*the rest is for the timeline css*/
-h4 {
+.slide {
   margin: auto; 
   text-align: center;
 }
-main {
+.panel {
   width: 50%;
   margin-top: 30px;
   margin: auto;
