@@ -58,6 +58,7 @@ h1 {
 /*the rest is for the timeline css*/
 h4 {
   margin: auto; 
+  text-align: center;
 }
 main {
   width: 50%;
