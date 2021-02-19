@@ -71,7 +71,6 @@ main {
   position: relative;
   color: $black;
   
-  //numbers
   &:before {
     content: counter(section);
     position: absolute;
@@ -86,7 +85,6 @@ main {
     font-size: 1em;
   }
 }
-//odd number borders
 .p:nth-child(odd) {
   border-right: 3px solid;
   padding-left: 0;
@@ -96,7 +94,6 @@ main {
     margin-left: -20px;
   }
 }
-//even number borders
 .p:nth-child(even) {
   border-left: 3px solid;
   padding-right: 0;
@@ -106,7 +103,6 @@ main {
     margin-right: -20px;
   }
 }
-//handle first and last
 .p:first-child {
   border-top: 0;
   border-top-right-radius:0;
